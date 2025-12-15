@@ -1,1 +1,58 @@
+#Asha 
+#Personal Information
+#My first project
+# Personal Information Manager
+# My first Python project
+
+# Welcome message
+print("=" * 40)
+print("    PERSONAL INFORMATION")
+print("=" * 40)
+print()
+
+# Store static information
+name = "Asha" #name of person
+age = 21       #age of person
+city = "Tirupati"   #city
+hobby = "cooking"    #hobby
+
+#Get user input
+print("Tell us your name:")
+print("-" * 30)
+
+#favorite food
+fav_food = input("what is your favourite food?")
+while fav_food == "":
+    print("please enter a valid food")
+    fav_food=input("what is your food?")
+
+#favorite color
+fav_color = input("what is your favourite color?")
+while fav_color == "":
+    print("please enter a valid color")
+    fav_color=input("what is your color?")
+
+#calculate age in months
+age_in_months = age * 12
+
+#Display information
+print()
+print("=" * 40)
+print("        YOUR INFORMATION")
+print("=" * 40)
+print()
+
+print(f"Name: {name}")
+print(f"Age: {age} years ({age_in_months} months old)")
+print(f"City: {city}")
+print(f"Hobby: {hobby}")
+print()
+print(f"Favorite Food: {fav_food}")
+print(f"Favorite Color: {fav_color}")
+print()
+
+# Goodbye message
+print("=" * 40)
+print("Thanks for using this program!")
+print("=" * 40)
 
