@@ -1,0 +1,24 @@
+Step 1: Set up your project
+• Create a new folder for your project
+• Create a file called personal_info.py
+• Write a comment at the top with your name and project description
+Step 2: Store static information
+• Create variables for your name, age, city, and hobby
+• Use appropriate data types for each (string for name, integer for age)
+• Add comments explaining each variable
+Step 3: Get user input
+• Ask the user for their favorite food and favorite color
+• Store these in variables
+• Add basic validation (check if input is empty)
+Step 4: Display information
+• Create a formatted output using f-strings
+• Display all information in a readable format
+• Add separators between sections
+Step 5: Test your program
+• Run your program multiple times with different inputs
+• Test edge cases (empty input, very long input)
+• Fix any errors that occur
+Step 6: Add enhancements
+• Add a welcome message when the program starts
+• Calculate your age in months (age * 12)
+• Create a goodbye message when the program ends
