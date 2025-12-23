@@ -1,1 +1,39 @@
 
+==================================================
+      STUDENT GRADE CALCULATOR
+==================================================
+
+Enter number of students: 2
+
+=== STUDENT 1 ===
+Student name: asha
+Enter marks (0-100):
+Math: 99
+Science: 95
+English: 92
+
+=== STUDENT 2 ===
+Student name: likitha
+Enter marks (0-100):
+Math: 97
+Science: 89
+English: 88
+
+==================================================
+            RESULTS SUMMARY
+==================================================
+Name                 |   Avg | Grade | Comment
+------------------------------------------------------------
+asha                 |  95.3 |   A   | Excellent!
+likitha              |  91.3 |   A   | Excellent!
+
+==================================================
+          CLASS STATISTICS
+==================================================
+Total Students: 2
+Class Average: 93.3
+Highest Average: 95.3 (asha)
+Lowest Average: 91.3 (likitha)
+
+==================================================
+==================================================
