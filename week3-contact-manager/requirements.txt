@@ -1,1 +1,11 @@
+This Contact Management System is developed using only Python standard libraries, which are included by default with Python installations. Therefore, no additional third-party packages are required.
 
+Libraries used (Standard Library):
+
+The project uses the following built-in Python modules:
+json – for storing and retrieving contact data in JSON format
+re – for validating phone numbers and email addresses
+datetime – for recording contact creation and update timestamps
+os – for checking file existence and file handling
+
+Since these modules come pre-installed with Python, they do not need to be listed as dependencies.
